@@ -20,7 +20,7 @@
                     <label for="n1">N1</label>
                 </p>
                 <p>
-                    <input type="number" id="N1" name="N1" class="form-control" required min="0" max="10">
+                    <input type="number" id="N1" name="N1" class="form-control" required min="0" max="10" step="0.5">
                 </p>
             </div>
             <div class="col-sm-3">
@@ -28,7 +28,7 @@
                     <label for="n2">N2</label>
                 </p>
                 <p>
-                    <input type="number" id="N2" name="N2" class="form-control" required min="0" max="10">
+                    <input type="number" id="N2" name="N2" class="form-control" required min="0" max="10" step="0.5">
                 </p>
             </div>
             <div class="col-sm-3">
@@ -36,7 +36,7 @@
                     <label for="n3">N3</label>
                 </p>
                 <p>
-                    <input type="number" id="N3" name="N3" class="form-control" required min="0" max="10">
+                    <input type="number" id="N3" name="N3" class="form-control" required min="0" max="10" step="0.5">
                 </p>
             </div>
             <div class="col-sm-3">
@@ -44,7 +44,7 @@
                     <label for="n4">N4</label>
                 </p>
                 <p>
-                    <input type="number" id="N4" name="N4" class="form-control" required min="0" max="10">
+                    <input type="number" id="N4" name="N4" class="form-control" required min="0" max="10" step="0.5">
                 </p>
             </div>
         </div>
