@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
 <?php include_once("pag05.php"); ?>
@@ -118,6 +117,6 @@
             </div>
         </form>
     </div>
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
 </body>
 </html>

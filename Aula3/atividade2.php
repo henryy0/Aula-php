@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
     <div class="container">
@@ -57,7 +57,7 @@
     </div>
     </form>
 
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
 
     <?php include_once("pag04.php"); ?>
 </body>
