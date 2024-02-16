@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>While</title>
+    <title>While - Do = For</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <div class="container">
     <form class="form-control" action="" method="post">
         <div class="row">
             <div class="col-sm-12">
-                <h1>While</h1>
+                <h1>While - Do = For</h1>
             </div>
         </div>
         <div class="row">
