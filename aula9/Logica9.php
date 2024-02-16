@@ -27,8 +27,5 @@ if (isset($_POST['Random'])) {
 
         echo "</tr>";
     }
-
-    echo "</tbody>";
-    echo "</table>";
 }
 ?>
