@@ -5,8 +5,6 @@ if (isset($_POST['Random'])) {
     // Lista de nomes
     $nomes = ['Biscoitinho', 'bolacha', 'martinha', 'pedro', 'manteiga', 'fome'];
 
-
-
     // Loop para cada linha
     for ($i = 1; $i <= $row; $i++) {
         echo "<tr>";
