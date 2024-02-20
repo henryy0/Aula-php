@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="Logica9.php" method="post">
+        <form action="Logica10.php" method="post">
             <div class="row">
                 <div class="col-sm-12">
                     <h1>Desafio</h1>
@@ -18,12 +18,19 @@
                 <div class="col-sm-6">
                     <table class="table">
                         <thead>
-                            
+                            <tr>
+                                <th scope="col">Nomes</th>
+                                <th scope="col">Bimestre 1</th>
+                                <th scope="col">Bimestre 2</th>
+                                <th scope="col">Bimestre 3</th>
+                                <th scope="col">Bimestre 4</th>
+                                <th scope="col">Total</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td colspan="6">
-                                    <?php include 'Logica9.php'; ?>
+                                    <?php include 'Logica10.php'; ?>
                                 </td>
                             </tr>
                         </tbody>
@@ -42,7 +49,7 @@
                         </p>
                         <div class="row">
                             <div class="col-sm-12">
-                                <button name="Random" formaction="aula9.php" class="btn btn-success">Random</button>
+                                <button name="Random" formaction="aula10.php" class="btn btn-success">Random</button>
                             </div>
                         </div>
                     </div>
