@@ -101,6 +101,20 @@
                     //     }
                     // }
 
+                    $ID = isset($_POST['ID']) ? $_POST['ID'] : '';
+                    $Nome = isset($_POST['Nome']) ? $_POST['Nome'] : '';
+                    $Data = isset($_POST['Data']) ? $_POST['Data'] : '';
+                    $CEP = isset($_POST['CEP']) ? $_POST['CEP'] : '';
+                    $Rua = isset($_POST['Rua']) ? $_POST['Rua'] : '';
+                    $Número = isset($_POST['Número']) ? $_POST['Número'] : '';
+                    $Complemento = isset($_POST['Complemento']) ? $_POST['Complemento'] : '';
+                    $país = isset($_POST['País']) ? $_POST['País'] : '';
+                    $Estado = isset($_POST['Estado']) ? $_POST['Estado'] : '';
+                    $Cidade = isset($_POST['Cidade']) ? $_POST['Cidade'] : '';
+                    $Bairro = isset($_POST['Bairro']) ? $_POST['Bairro'] : '';
+                    $Observação = isset($_POST['Observação']) ? $_POST['Observação'] : '';
+                    $Status = isset($_POST['Status']) ? $_POST['Status'] : '';
+
                     if ($_POST) {
                         $ID = $_POST['ID'];
                         $Nome = $_POST['Nome'];
@@ -115,6 +129,7 @@
                         $Bairro = $_POST['Bairro'];
                         $Observação = $_POST['Observação'];
                         $Status = $_POST['Status'];
+                        
 
                         if(empty($ID)){
                             echo "A palavra (ID) não pode estar vazia.<br>";
